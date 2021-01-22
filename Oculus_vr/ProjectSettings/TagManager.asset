@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ClimbPoint
+  - GreenCube
+  - RedCube
+  - YellowCube
   layers:
   - Default
   - TransparentFX
@@ -14,8 +17,8 @@ TagManager:
   - UI
   - player
   - grabbable
-  - 
-  - 
+  - Target
+  - Hands
   - 
   - 
   - 
