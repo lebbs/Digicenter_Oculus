@@ -33,6 +33,14 @@ public class Health : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("target1"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
 
 
 }
