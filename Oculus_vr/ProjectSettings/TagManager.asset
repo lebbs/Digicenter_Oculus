@@ -8,6 +8,13 @@ TagManager:
   - GreenCube
   - RedCube
   - YellowCube
+  - Pickable
+  - Fracture
+  - RightHand
+  - LeftHand
+  - target1
+  - Score
+  - Floor
   layers:
   - Default
   - TransparentFX
