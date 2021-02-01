@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 1038912518}
   - component: {fileID: 1038912517}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: PlayArea
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -613,7 +613,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1e17ff74808369b4ea83d2966783137c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -652,7 +652,7 @@ Transform:
   m_GameObject: {fileID: 1038912516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0, z: 0}
-  m_LocalScale: {x: 0.33555, y: 1, z: 0.483}
+  m_LocalScale: {x: 0.25987342, y: 1, z: 0.483}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -674,15 +674,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4948094650709960048, guid: 0e640a459d0cbe341ba8419106e2d6a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07500556
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4948094650709960048, guid: 0e640a459d0cbe341ba8419106e2d6a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.7727852
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4948094650709960048, guid: 0e640a459d0cbe341ba8419106e2d6a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.215662
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4948094650709960048, guid: 0e640a459d0cbe341ba8419106e2d6a1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1257,7 +1257,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798052278}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.102, y: 1.5, z: 3.913}
+  m_LocalPosition: {x: 0.102, y: 1.5, z: 2.321}
   m_LocalScale: {x: 0.10359516, y: 0.21675579, z: 0.010656834}
   m_Children:
   - {fileID: 90683613}
