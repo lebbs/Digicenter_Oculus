@@ -18,6 +18,7 @@ TagManager:
   - Cube
   - DoubleTarget
   - Start
+  - Goal
   layers:
   - Default
   - TransparentFX
