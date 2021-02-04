@@ -16,5 +16,12 @@ public class ActivateSpawns : MonoBehaviour
         spawnerLeft.SetActive(true);
         spawnerMiddle.SetActive(true);
     }
+
+    void DeactivateSpawn()
+    {
+        spawnerRight.SetActive(false);
+        spawnerLeft.SetActive(false);
+        spawnerMiddle.SetActive(false);
+    }
     
 }
