@@ -5,11 +5,19 @@ using UnityEngine;
 public class PlaySound : MonoBehaviour
 {
 
-    public AudioSource audioSource;
+    public AudioSource audioSource1;
+
+    public AudioSource audioSource2;
+
 
     public void PlayAudio()
     {
-        audioSource.Play();
+        audioSource1.Play();
+    }
+
+    public void PlayAudioClose()
+    {
+        audioSource2.Play();
     }
 
 }
