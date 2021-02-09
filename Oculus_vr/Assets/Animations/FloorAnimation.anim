@@ -59,42 +59,23 @@ AnimationClip:
       m_RotationOrder: 4
     path: 
   m_ScaleCurves: []
-  m_FloatCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 7.033334
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 534f2d367383fc7449da28c2800cda07, type: 3}
+  m_FloatCurves: []
   m_PPtrCurves:
   - curve:
     - time: 0
       value: {fileID: 0}
     - time: 7.016667
       value: {fileID: 0}
-    attribute: audioSource
+    attribute: audioSource1
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 534f2d367383fc7449da28c2800cda07, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 0}
+    - time: 7.033334
+      value: {fileID: 0}
+    attribute: audioSource2
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 534f2d367383fc7449da28c2800cda07, type: 3}
@@ -114,14 +95,14 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 3305885265
+      attribute: 2114886391
       script: {fileID: 11500000, guid: 534f2d367383fc7449da28c2800cda07, type: 3}
       typeID: 114
-      customType: 24
-      isPPtrCurve: 0
+      customType: 0
+      isPPtrCurve: 1
     - serializedVersion: 2
       path: 0
-      attribute: 2961979930
+      attribute: 3876047693
       script: {fileID: 11500000, guid: 534f2d367383fc7449da28c2800cda07, type: 3}
       typeID: 114
       customType: 0
@@ -129,12 +110,14 @@ AnimationClip:
     pptrCurveMapping:
     - {fileID: 0}
     - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 7.033334
+    m_StopTime: 7.0500007
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -288,34 +271,6 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 7.033334
-        value: 1
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
-    path: 
-    classID: 114
-    script: {fileID: 11500000, guid: 534f2d367383fc7449da28c2800cda07, type: 3}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
@@ -328,7 +283,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 5.516667
-    functionName: PlayAudio
+    functionName: PlayAudioClose
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

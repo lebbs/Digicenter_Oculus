@@ -8,50 +8,26 @@ public class plamyanimation : MonoBehaviour
     [SerializeField] private Animator spawnerAnimator;
 
     public  GameObject spawner;
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.CompareTag("RightHand") ||
-    //        other.CompareTag("LeftHand"))
-
-    //    {
-    //        floorAnimator.SetBool("playOpen", true);
-    //        spawnerAnimator.SetBool("playSpawner", true);
-
-    //    }
-
-    //}
+    public GameObject floor;
 
     public void ActivateGame()
     {
-        floorAnimator.SetBool("playOpen", true);
-        spawnerAnimator.SetBool("playSpawner", true);
+        spawner.GetComponent<Animator>().Play("SpawnerAnimation");
+        floor.GetComponent<Animator>().Play("OpenFloor");
+        
     }
 
     public void CloseGame()
     {
-        //floorAnimator.SetBool("playOpen", false);
-        spawnerAnimator.SetBool("closeSpawner", true);
+       
 
         spawner.GetComponent<Animator>().Play("SpawnerAnimationClose");
+        floor.GetComponent<Animator>().Play("OpenFloor");
+
 
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            spawner.GetComponent<Animator>().Play("SpawnerAnimationClose");
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            spawner.GetComponent<Animator>().Play("SpawnerAnimation");
-
-        }
-    }
-
+   
 
 }
 
