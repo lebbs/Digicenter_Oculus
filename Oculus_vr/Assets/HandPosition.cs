@@ -9,6 +9,8 @@ public class HandPosition : MonoBehaviour
     public Transform target;
     public TextMesh text;
 
+    public List<Vector3> myPositions = new List<Vector3>();
+
     private void Update()
     {
         text.text = target.position.ToString("F2");
@@ -17,6 +19,7 @@ public class HandPosition : MonoBehaviour
 
         if(handHeight > 1)
         {
+            
             Debug.Log(handHeight);
         }
 

@@ -1065,6 +1065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1724807395}
   text: {fileID: 824790768}
+  myPositions: []
 --- !u!102 &824790768
 TextMesh:
   serializedVersion: 3
