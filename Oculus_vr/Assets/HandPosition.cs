@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
+using System.Linq;
 
 public class HandPosition : MonoBehaviour
 {
@@ -9,19 +11,47 @@ public class HandPosition : MonoBehaviour
     public Transform target;
     public TextMesh text;
 
-    public List<Vector3> myPositions = new List<Vector3>();
+
+    private float startHandHeight;
+
+    public float handHeight;
+
+
+    private void Start()
+    {
+        startHandHeight = target.transform.position.y;
+    }
+
 
     private void Update()
     {
-        text.text = target.position.ToString("F2");
-
         float handHeight = target.transform.position.y;
 
-        if(handHeight > 1)
+
+        if (handHeight > startHandHeight) 
         {
-            
-            Debug.Log(handHeight);
+            text.text = target.position.ToString("F2");
+            Start();
+
         }
+
+        //foreach (var item in array)
+        //{
+        //    if (item.transform.position.y > handHeight)
+        //    {
+        //        SaveList.Add(item.transform);
+        //    }
+
+        //    //if (SaveList.Count > 10)
+        //    //{
+        //    //    Debug.Log("jee");
+        //    //}
+
+
+        //}
+
+
+        
 
 
     }
