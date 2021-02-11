@@ -1262,6 +1262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Climber
       objectReference: {fileID: 0}
+    - target: {fileID: 2220262611555017311, guid: 8c1a85e1de8839145822fbffbf609c89, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2220262611833590530, guid: 8c1a85e1de8839145822fbffbf609c89, type: 3}
       propertyPath: m_TagString
       value: LeftHand
