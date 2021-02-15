@@ -36,6 +36,8 @@ public class HandTrackingGrabber : OVRGrabber
             Vector3 linearVelocity = (transform.position - m_lastPos) / Time.fixedDeltaTime;
             Vector3 angularVelocity = (transform.eulerAngles - m_lastRot.eulerAngles) / Time.fixedDeltaTime;
 
+            Debug.Log("KIINNIPITÄMINEN LOPETETTU");
+
             GrabbableRelease(linearVelocity, angularVelocity);
         }
         GrabVolumeEnable(true);

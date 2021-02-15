@@ -10,16 +10,23 @@ public class HandPosition : MonoBehaviour
 
     public Transform target;
     public TextMesh text;
+    public float delay = 2f;
 
-
-    private float startHandHeight;
+    private float startHandHeight = 0;
 
     public float handHeight;
+    
 
+    //private IEnumerator Start()
+    //{
+    //    yield return new WaitForSeconds(delay);
+    //    StartPosition();
+    //}
 
-    private void Start()
+    void StartPosition()
     {
         startHandHeight = target.transform.position.y;
+
     }
 
 
@@ -31,7 +38,7 @@ public class HandPosition : MonoBehaviour
         if (handHeight > startHandHeight) 
         {
             text.text = target.position.ToString("F2");
-            Start();
+            StartPosition();
 
         }
 

@@ -101,7 +101,7 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 0}
-    - time: 7.033334
+    - time: 7.0500007
       value: {fileID: 0}
     attribute: audioSource2
     path: 
@@ -152,7 +152,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 7.0500007
+    m_StopTime: 7.0666676
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -345,7 +345,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.516667
+  - time: 5.5
     functionName: PlayAudioClose
     data: 
     objectReferenceParameter: {fileID: 0}
