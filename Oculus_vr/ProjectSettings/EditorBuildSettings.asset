@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Climbing.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/MainMenu.unity
+    guid: e8cf1d29775c7e24f9dd35148a6437c0
+  - enabled: 1
+    path: Assets/Scenes/CubeGame.unity
+    guid: f2ac6613387a83545b5000134a7e1680
+  - enabled: 1
+    path: Assets/Scenes/Boxing.unity
+    guid: 0cb11008c46d9134eb15d2c13dad7f7c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 502c58afceec62142acdc5186d0006f9, type: 2}
     Varjo.XR.Settings: {fileID: 11400000, guid: fd6bd75c35695494ab1b00a97eb323d6, type: 2}

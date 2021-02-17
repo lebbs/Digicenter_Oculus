@@ -101,7 +101,7 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 0}
-    - time: 7.033334
+    - time: 5.483333
       value: {fileID: 0}
     attribute: audioSource2
     path: 
@@ -345,7 +345,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 5.516667
+  - time: 5.5
     functionName: PlayAudioClose
     data: 
     objectReferenceParameter: {fileID: 0}
