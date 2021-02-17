@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5699107732850593033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5699107732850593047}
+  - component: {fileID: 5699107732850593032}
+  m_Layer: 0
+  m_Name: GestureDetectorRightHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5699107732850593047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5699107732850593033}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.510434, y: 6.4183, z: -6.4009337}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5699107733133505267}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5699107732850593032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5699107732850593033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab2c4c6e52f6eb439634839d5648371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: 0.05
+  skeleton: {fileID: 0}
+  gestures:
+  - name: New Gesture
+    fingerDatas:
+    - {x: 0.00000004263856, y: 0.00000011657389, z: -0.00000005910843}
+    - {x: 0.00000004263856, y: 0.00000011657389, z: -0.00000005910843}
+    - {x: -0.020069325, y: -0.01155398, z: -0.010496605}
+    - {x: -0.03279402, y: -0.012668556, z: -0.031815324}
+    - {x: -0.055157796, y: -0.016243266, z: -0.05514276}
+    - {x: -0.08024532, y: -0.015890522, z: -0.07778053}
+    - {x: -0.09599624, y: -0.0073163616, z: -0.023550682}
+    - {x: -0.11586968, y: -0.039225157, z: -0.01851542}
+    - {x: -0.09254216, y: -0.045265626, z: -0.02167911}
+    - {x: -0.09564664, y: -0.0025430222, z: -0.0017259924}
+    - {x: -0.10165122, y: -0.045029417, z: -0.000467492}
+    - {x: -0.07502191, y: -0.043013256, z: -0.0072347666}
+    - {x: -0.088693835, y: -0.0065291817, z: 0.017465165}
+    - {x: -0.08734579, y: -0.045319516, z: 0.013698045}
+    - {x: -0.06212196, y: -0.042096313, z: 0.00598342}
+    - {x: -0.034073602, y: -0.009419733, z: 0.022998504}
+    - {x: -0.07789589, y: -0.013691066, z: 0.03505401}
+    - {x: -0.07380217, y: -0.042607125, z: 0.02552252}
+    - {x: -0.054795988, y: -0.04046035, z: 0.018687926}
+    - {x: -0.09177707, y: -0.013986629, z: -0.09945082}
+    - {x: -0.08059827, y: -0.026562203, z: -0.02464327}
+    - {x: -0.06683247, y: -0.020003464, z: -0.012537777}
+    - {x: -0.05506766, y: -0.01890718, z: 0.0033538113}
+    - {x: -0.04427927, y: -0.021494258, z: 0.015250327}
+    onRecognized:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - name: New Gesture
+    fingerDatas:
+    - {x: -0.000000017751013, y: 0.000000023826491, z: -0.000000015134143}
+    - {x: -0.000000017751013, y: 0.000000023826491, z: -0.000000015134143}
+    - {x: -0.020069307, y: -0.0115540875, z: -0.010496525}
+    - {x: -0.036197808, y: -0.01967896, z: -0.027570099}
+    - {x: -0.060706332, y: -0.03349476, z: -0.043865655}
+    - {x: -0.09025995, y: -0.048271522, z: -0.036780305}
+    - {x: -0.09599625, y: -0.007316451, z: -0.023550685}
+    - {x: -0.111039996, y: -0.04197285, z: -0.020219335}
+    - {x: -0.08689017, y: -0.04430326, z: -0.021642817}
+    - {x: -0.0956466, y: -0.002543097, z: -0.0017259296}
+    - {x: -0.1269841, y: -0.031691425, z: 0.0016014746}
+    - {x: -0.14711794, y: -0.050344326, z: 0.003983246}
+    - {x: -0.08869379, y: -0.0065293424, z: 0.017465258}
+    - {x: -0.09883198, y: -0.04418284, z: 0.017112244}
+    - {x: -0.07411025, y: -0.04436977, z: 0.007368264}
+    - {x: -0.034073524, y: -0.009419848, z: 0.022998543}
+    - {x: -0.07789582, y: -0.013691148, z: 0.03505412}
+    - {x: -0.08365807, y: -0.043150414, z: 0.028519746}
+    - {x: -0.065498985, y: -0.043278895, z: 0.019421227}
+    - {x: -0.10300417, y: -0.05614676, z: -0.017241232}
+    - {x: -0.07434635, y: -0.025851352, z: -0.023497196}
+    - {x: -0.16664815, y: -0.06567025, z: 0.006868029}
+    - {x: -0.06388467, y: -0.022612147, z: 0.003311338}
+    - {x: -0.054305352, y: -0.024983995, z: 0.014716798}
+    onRecognized:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: spawner, Assembly-CSharp
+          m_MethodName: CloseMenu
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  debugMode: 1
+  notRecognize:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &5699107733133505268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5699107733133505267}
+  m_Layer: 0
+  m_Name: GestureDetectors 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5699107733133505267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5699107733133505268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.382375, y: -4.2748213, z: 6.0529346}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5699107733411658069}
+  - {fileID: 5699107732850593047}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5699107733411658071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5699107733411658069}
+  - component: {fileID: 5699107733411658070}
+  m_Layer: 0
+  m_Name: GestureDetectorLeftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5699107733411658069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5699107733411658071}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.510434, y: 6.4183, z: -6.4009337}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5699107733133505267}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5699107733411658070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5699107733411658071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab2c4c6e52f6eb439634839d5648371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  threshold: 0.03
+  skeleton: {fileID: 0}
+  gestures:
+  - name: New Gesture
+    fingerDatas:
+    - {x: 0.000000044856748, y: -0.0000000384566, z: -0.000000071593334}
+    - {x: 0.000000044856748, y: -0.0000000384566, z: -0.000000071593334}
+    - {x: 0.020069297, y: 0.011554095, z: 0.010496498}
+    - {x: 0.03813782, y: 0.024250533, z: 0.021897279}
+    - {x: 0.05904278, y: 0.048512887, z: 0.027501794}
+    - {x: 0.084824584, y: 0.0685538, z: 0.01880513}
+    - {x: 0.095996246, y: 0.0073163775, z: 0.023550637}
+    - {x: 0.11195176, y: 0.04148593, z: 0.019507049}
+    - {x: 0.10839815, y: 0.06547606, z: 0.01792141}
+    - {x: 0.09564666, y: 0.0025431588, z: 0.0017258648}
+    - {x: 0.13104592, y: 0.026710661, z: -0.0006297962}
+    - {x: 0.15297028, y: 0.04331126, z: -0.0022800986}
+    - {x: 0.08869386, y: 0.0065292343, z: -0.017465271}
+    - {x: 0.12577318, y: 0.017289901, z: -0.022945225}
+    - {x: 0.1485334, y: 0.030801008, z: -0.02530521}
+    - {x: 0.034073602, y: 0.009419851, z: -0.022998676}
+    - {x: 0.0778959, y: 0.013691118, z: -0.03505416}
+    - {x: 0.10649388, y: 0.014656573, z: -0.04623313}
+    - {x: 0.12408595, y: 0.022637472, z: -0.052508105}
+    - {x: 0.10091936, y: 0.087126255, z: 0.020300612}
+    - {x: 0.10647582, y: 0.08756111, z: 0.014789236}
+    - {x: 0.17550549, y: 0.053797692, z: -0.004894875}
+    - {x: 0.16999187, y: 0.0423088, z: -0.026538873}
+    - {x: 0.1444847, y: 0.028497346, z: -0.058136832}
+    onRecognized:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: spawner, Assembly-CSharp
+          m_MethodName: OpenMenu
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: New Gesture
+    fingerDatas:
+    - {x: -0.000000045932286, y: 0.000000053683653, z: 0.00000006575392}
+    - {x: -0.000000045932286, y: 0.000000053683653, z: 0.00000006575392}
+    - {x: 0.020069284, y: 0.0115541015, z: 0.0104965065}
+    - {x: 0.038491745, y: 0.02522837, z: 0.02005056}
+    - {x: 0.0565982, y: 0.052190274, z: 0.021565365}
+    - {x: 0.07953553, y: 0.07402772, z: 0.009776202}
+    - {x: 0.09599618, y: 0.0073164995, z: 0.023550702}
+    - {x: 0.13310865, y: 0.013878506, z: 0.019297428}
+    - {x: 0.15601687, y: 0.02140479, z: 0.0162586}
+    - {x: 0.095646635, y: 0.0025432047, z: 0.0017258858}
+    - {x: 0.10785933, y: 0.04353084, z: -0.0019611318}
+    - {x: 0.104437105, y: 0.07084651, z: -0.0009050838}
+    - {x: 0.0886938, y: 0.0065292954, z: -0.017465204}
+    - {x: 0.11630251, y: 0.033833392, z: -0.0210632}
+    - {x: 0.13304314, y: 0.054394763, z: -0.022830974}
+    - {x: 0.03407356, y: 0.009419794, z: -0.022998527}
+    - {x: 0.077895835, y: 0.013691145, z: -0.03505408}
+    - {x: 0.106195964, y: 0.008192428, z: -0.045665912}
+    - {x: 0.12487164, y: 0.013641667, z: -0.0515034}
+    - {x: 0.09394928, y: 0.0935912, z: 0.005811091}
+    - {x: 0.17779467, y: 0.024175713, z: 0.011864404}
+    - {x: 0.0965942, y: 0.09442459, z: 0.0017777084}
+    - {x: 0.1506201, y: 0.07123824, z: -0.024157891}
+    - {x: 0.146026, y: 0.016853124, z: -0.05643385}
+    onRecognized:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: spawner, Assembly-CSharp
+          m_MethodName: CloseMenu
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  debugMode: 1
+  notRecognize:
+    m_PersistentCalls:
+      m_Calls: []
